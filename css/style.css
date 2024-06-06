@@ -1,0 +1,178 @@
+body {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: coral;
+}
+
+h3 {
+    color: rgb(102, 142, 216);
+}
+
+header {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    font-size: large;
+}
+
+section {
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    margin-top: 24px;
+    background-color: rgb(80, 80, 80);
+}
+
+
+p {
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+}
+
+.Redes {
+    color: white;
+    list-style: disc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes h2 {
+    align-self: flex-start;
+    color: white;
+}
+
+.nav-link {
+    color: blueviolet;
+}
+
+.btn {
+    background-color: rgb(156, 154, 154);
+    color: black;
+    border: 2px solid white
+}
+
+.btn:hover {
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet
+}
+
+label {
+    color: white;
+
+}
+
+
+
+.navbar-brand {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    height: 120px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand h1 {
+    align-self: center;
+    text-wrap: wrap;
+    white-space: normal;
+}
+
+.navbar-brand img {
+    padding: 20px;
+    object-fit: contain;
+}
+
+.dropdown-item:hover {
+    background-color: coral;
+}
+
+.navbar {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: coral;
+}
+
+
+.dropdown-toggle {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: rgb(80, 80, 80);
+    border-color: black;
+}
+
+.navbar-nav .nav-link.show {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container p {
+    width: 80%;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 1120px;
+    height: auto;
+}
+
+.cointainer {
+    padding: 0;
+    margin: 0;
+}
