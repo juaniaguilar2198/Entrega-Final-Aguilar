@@ -1,0 +1,44 @@
+form {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "nombre-apellido-label nombre-apellido-input"
+        "correo-label          correo-input"
+        "asunto-label          asunto-input"
+        "mensaje-label         mensaje-input";
+
+    text-align: right;
+    gap: 10px;
+}
+
+.nombre-apellido-label {
+    grid-area: nombre-apellido-label;
+    .correo-label {
+        grid-area: correo-label;
+    }
+    
+    .asunto-label {
+        grid-area: asunto-label;
+    }
+    
+    .mensaje-label {
+        grid-area: mensaje-label;
+    }
+}
+
+.nombre-apellido-input {
+    grid-area: nombre-apellido-input;
+    .correo-input {
+        grid-area: correo-input;
+    }
+    
+    .asunto-input {
+        grid-area: asunto-input;
+    }
+    
+    .mensaje-input {
+        grid-area: mensaje-input;
+    }
+}
+

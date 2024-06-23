@@ -1,0 +1,48 @@
+$color-principal:black;
+$color-texto:white;
+$color-titulo:coral;
+
+
+
+body {
+    background-color:$color-principal;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:$color-texto;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:$color-titulo;
+    background-color:$color-principal;
+}
+
+h3 {
+    color: rgb(102, 142, 216);
+}
+
+header {
+    background-color:$color-principal
+}
+
+ul {
+    list-style: none;
+    font-size: large;
+}
+p {
+    font-weight: bold;
+    font-style: oblique;
+    color:$color-texto;
+    margin: 0;
+}
+label {
+    color: $color-texto;
+
+}

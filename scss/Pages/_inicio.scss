@@ -1,0 +1,48 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+
+    &p {
+        width: 80%;
+        text-align: center;
+    }
+
+    &img {
+        width: 100%;
+        max-width: 1120px;
+        height: auto;
+    }
+}
+
+
+.cointainer {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-grey {
+    background-color: rgb(80, 80, 80);
+}
+
+.nav-link {
+    color: blueviolet;
+}
+
+.btn {
+    background-color: rgb(156, 154, 154);
+    color: black;
+    border: 2px solid white
+}
+
+.btn:hover {
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet
+}

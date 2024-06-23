@@ -1,4 +1,3 @@
-/*# sourceMappingURL=style.css.map */
 body {
     background-color: black;
     margin: 0;
@@ -23,7 +22,7 @@ h3 {
 }
 
 header {
-    background-color: black
+    background-color: magenta
 }
 
 ul {
