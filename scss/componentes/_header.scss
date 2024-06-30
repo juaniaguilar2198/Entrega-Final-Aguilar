@@ -22,3 +22,30 @@ header {
     }
 }
 
+.box{
+    background: linear-gradient($color-principal,rgb(45,88,83),rgb(42,113,137));
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid  rgb(80, 80, 80) ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: inset -5px 5px 5px;
+    text-shadow: -5px 5px 5px black;
+    
+}
+
+.inner-box img {
+    height: 110px;
+    width: auto;
+    filter: drop-shadow(-5px 5px 5px black);
+}
+.inner-box :hover {
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    scale: 1.2;
+    rotate: 360deg;
+    
+}
